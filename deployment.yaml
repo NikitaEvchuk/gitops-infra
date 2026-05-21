@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: ghcr.io/nikitaevchuk/gitops-app:latest
+        image: ghcr.io/nikitaevchuk/gitops-app:8944c1049a0f455a61e784d4aef41bf28c997546
         ports:
         - containerPort: 8000
