@@ -1,0 +1,24 @@
+apiVersion: v1
+    apiVersion: v1
+    kind: Service
+    kind: Service
+    metadata:
+    metadata:
+      name: gitops-app-service
+      name: gitops-app-service
+    spec:
+    spec:
+      type: NodePort
+      type: NodePort
+      selector:
+      selector:
+        app: gitops-app
+        app: gitops-app
+      ports:
+      ports:
+        - port: 80
+        - port: 80
+          targetPort: 8000
+          targetPort: 8000
+          nodePort: 30080
+          nodePort: 30080
